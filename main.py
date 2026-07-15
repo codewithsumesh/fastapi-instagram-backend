@@ -14,7 +14,7 @@ app.include_router(authentication.router)
 app.include_router(comment.router)
 
 origins = [
-    'http://localhost:3000'
+    'https://fastapi-instagram-frontend.onrender.com'
 ]
 
 app.add_middleware(
